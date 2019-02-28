@@ -11,4 +11,4 @@ class Cog2(commands.Cog):
         await ctx.send("command from Cog2")
 
 def setup(bot):
-    bot.add_cog(Cog2(commands.Cog))
+    bot.add_cog(Cog2(bot))
